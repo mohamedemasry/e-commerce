@@ -1,0 +1,132 @@
+:root {
+  --primary: #fff;
+  --primary1: #363738;
+  --secondary: #f5f5f5;
+  --secondary: #fefaf1;
+  --bg: #ffffff;
+  --text: #fafafa;
+  --text1: #7d8184;
+  --text2: #000000;
+  --button: #000000;
+  --secondary2: #db4444;
+  --button1: #00ff66;
+  --button2: #db4444;
+  --hover-button: #e07575;
+  --hover-button-2: #a0bce0;
+}
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+p {
+  margin: 0px;
+}
+.flex {
+  display: flex;
+}
+.align-center {
+  justify-self: center;
+}
+.alert {
+  width: auto;
+  height: 48px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  max-height: 38px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1170px;
+  width: 1218px;
+  min-width: 1100px;
+  margin-left: 135px;
+  margin-right: 87px;
+}
+.navbar-icons {
+  display: flex;
+  width: 347px;
+  justify-content: space-evenly;
+}
+.navbar-layout {
+  display: flex;
+  justify-content: center;
+  height: 94px;
+  align-items: center;
+  width: auto;
+  border-bottom: 1px solid #0000007a;
+}
+.navbar-navigation {
+  width: 367px;
+  display: flex;
+  justify-content: space-between;
+  height: 16px;
+}
+.input {
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 4px;
+  padding: 7px;
+  padding-left: 20px;
+  padding-right: 12px;
+}
+.layout {
+  max-width: 1218px;
+  padding: 135px;
+  padding-top: 0px;
+}
+.sidebar {
+  height: 344px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid var(--button);
+  width: 217px;
+  padding-top: 40px;
+  padding-right: 16px;
+}
+.sidebar-button {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+}
+.image {
+  margin: left 45px;
+}
+.section {
+  display: flex;
+  margin-bottom: 140px;
+}
+.countdown {
+  display: flex;
+  margin-left: 87px;
+}
+.countdown-number {
+  display: flex;
+  align-items: center;
+}
+.product-card-container {
+  height: 350px;
+  width: 270px;
+}
+.product-card-img {
+  height: 250px;
+  width: 270px;
+  max-width: 270px;
+  border-radius: 4px;
+  background-color: var(--secondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product-card-price {
+  display: flex;
+}

@@ -1,0 +1,85 @@
+.text-h1 {
+  font-size: 70px;
+}
+.text-h2 {
+  font-size: 60px;
+}
+.text-h3 {
+  font-size: 50px;
+}
+.text-h4 {
+  font-size: 40px;
+}
+.text-h5 {
+  font-size: 36px;
+  font-weight: 600;
+}
+.text-h6 {
+  font-size: 32px;
+  font-weight: bold;
+}
+.text-p {
+  font-size: 24px;
+}
+.text-p2 {
+  font-size: 24px;
+}
+.text-small {
+  font-size: 12px;
+  text-align: left;
+}
+.text-heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.text-line-hover:hover {
+  border-bottom: 1px solid #0000007a;
+  text-align: top;
+}
+.text-section-box {
+  width: 20px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: var(--secondary2);
+}
+.text-section {
+  color: var(--secondary2);
+  font-size: 16px;
+  margin-left: 16px;
+  font-weight: bold;
+  align-self: center;
+}
+.text-colon {
+  color: var(--hover-button);
+  font-size: 24px;
+  font-weight: bold;
+  justify-self: center;
+  margin-left: 17px;
+  margin-right: 8px;
+}
+.text-price {
+  font-size: 16px;
+  color: var(--button);
+  opacity: 0.5;
+  font-style: italic;
+  margin-left: 12px;
+}
+.text-price-d {
+  font-size: 16px;
+  color:var(--secondary2);
+}
+.text-discount-precentage{
+    width: 55px;
+    height: 26px;
+    background-color: var(--secondary2);
+    color: var(--primary);
+    font-size: 12px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:auto;
+    margin-top: 12px;
+    margin-left: 12px;
+}
