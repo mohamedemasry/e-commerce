@@ -1,8 +1,8 @@
-import "../assets/styles/buttons.css"
+import "./styles/buttons.css";
 
-interface props{
-    type?:string;
-    children:JSX.Element|string;
+interface props {
+  type?: string;
+  children: JSX.Element | string;
 }
 const Button = ({ type = "primary", children }: props) => {
   return (
@@ -12,4 +12,4 @@ const Button = ({ type = "primary", children }: props) => {
   );
 };
 
-export default Button
+export default Button;

@@ -1,4 +1,4 @@
-import "../assets/styles/text.css";
+import "./styles/text.css";
 interface props {
   children?: string;
   type?: string;
@@ -8,7 +8,7 @@ const Text = ({ children = "", type = "p" }: props) => {
   if (type === "section")
     return (
       <div className="flex">
-        <div className={"text-"+type + "-box"}></div>
+        <div className={"text-" + type + "-box"}></div>
         <p className={"text-" + type}>{children}</p>
       </div>
     );
