@@ -23,13 +23,13 @@ const navbar = () => {
         <div className="navbar-icons">
           <Input placeholder="What are you looking for?" />
           <Button>
-            <img src="public/images/Wishlist.svg" alt="wishlist" />
+            <img src="/images/Wishlist.svg" alt="wishlist" />
           </Button>
           <Button>
-            <img src="public/images/Cart1 with buy.svg" alt="cart" />
+            <img src="/images/Cart1 with buy.svg" alt="cart" />
           </Button>
           <Button>
-            <img src="public/images/user.svg" alt="account" />
+            <img src="/images/user.svg" alt="account" />
           </Button>
         </div>
       </div>
