@@ -18,7 +18,7 @@ function App() {
         <div className="layout">
           <div className="section">
             <Sidebar />
-            <img src="src\assets\images\Frame 560.png" alt="frame 560" />
+            <img src="public/images/Frame 560.png" alt="frame 560" />
           </div>
           <Text type="section">Today’s</Text>
           <div className="flex">
@@ -26,7 +26,7 @@ function App() {
             <Countdown />
           </div>
           <ProductCard
-            src="src\assets\images\71RdoeXxtrL 1.png"
+            src="public/images/71RdoeXxtrL 1.png"
             name="Breed Dry Dog Food"
             price={1160}
             rating="4"
