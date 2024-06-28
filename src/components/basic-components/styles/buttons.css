@@ -31,10 +31,12 @@ input[type="reset"] {
   border-radius: 0px 0px 4px 4px;
   
 }
-.btn-add-to-cart:hover{
+.product-card-container .btn-add-to-cart{
+  transition: 0.4s all;
+}
+.product-card-container:hover .btn-add-to-cart{
   opacity: 1;
 }
 .btn-icon{
   margin-left: auto;
-
 }

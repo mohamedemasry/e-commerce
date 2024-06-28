@@ -1,5 +1,6 @@
 import Button from "../basic-components/Button";
 import Text from "../basic-components/Text";
+import "../basic-components/styles/buttons.css";
 interface props {
   src: string;
   name: string;
@@ -13,8 +14,8 @@ const ProductCard = ({
   src,
   name,
   price,
-  rating,
-  ratings,
+  //rating,
+  //ratings,
   discountedPrice,
 }: props) => {
   return (
@@ -24,10 +25,12 @@ const ProductCard = ({
         <img src={src} alt={name} />
         <Button type="add-to-cart">Add To Cart</Button>
       </div>
-      <Text>{name}</Text>
-      <div className="product-card-price">
-        <Text type="price-d">{`$ ${discountedPrice}`}</Text>
-        <Text type="price">{`$ ${price}`}</Text>
+      <div className="product-card-info">
+        <Text>{name}</Text>
+        <div className="product-card-price">
+          <Text type="price-d">{`$ ${discountedPrice}`}</Text>
+          <Text type="price">{`$ ${price}`}</Text>
+        </div>
       </div>
     </div>
   );

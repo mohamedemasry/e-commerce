@@ -115,9 +115,10 @@ p {
 .product-card-container {
   height: 350px;
   width: 270px;
+  display: flex;
+  flex-direction: column;
 }
 .product-card-img {
-  height: 250px;
   width: 270px;
   max-width: 270px;
   border-radius: 4px;
